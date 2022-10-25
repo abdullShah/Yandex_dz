@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #1e94e2;
+}
+
+strong{
+    font-size: 24px;
+}
+
+nav a{
+    color: #B1ADC0;
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search img{
+    height: 45px;
+}
+
+.contentError p{
+    padding-top: 5px;
+}
+
+.marg{
+    margin-left: 105px;
+}
+
+.searchFunc{
+    width: 100%;
+    position: relative;
+}
+
+.searchFunc input[type = "text"]{
+    margin-left: 20px;
+}
+
+ul{
+    column-count: 2;
+    list-style-type: none;
+}
+
+li {
+    padding: 4px;
+}
+
+li img{
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+
+.contentError, 
+.search{
+    margin-bottom: 30px;
+}
+
+main{
+    flex: 1 0 auto;
+    display: flex;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+footer a{
+    margin-right: 20px;
+}
+
+div.searchFunc input,
+div.searchFunc button {
+    float: left;
+    border: 2px solid  #FFCC00;
+}
+
+div.searchFunc input{
+  width: 88%;
+  padding: 10px;
+  border-radius: 8px;
+  outline:none;
+}
+
+div.searchFunc input::placeholder{
+    font-size: 16px;
+}
+
+div.searchFunc button{
+    position: absolute;
+    right: 20px;
+    padding: 10px 15px;
+    background: #FFCC00;
+    border-radius: 0 7px 7px 0;
+	cursor: pointer;
+    transition-duration: .3s;
+}
+
+div.searchFunc button:hover{
+    background: #F5C400;;
+}
